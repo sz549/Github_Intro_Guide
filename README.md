@@ -49,7 +49,7 @@ There should be quarterly data for the last 12 months. You could save the data i
 
 Below is the graph for reference. 
 
-![](../AppData/Local/Temp/rating_rd_4.png)
+![](output/rating_rd_4.png)
 
 Please pull origin after you finished the graph. Please note that you could edit/revise the codes above.
 The code is just for reference. Please upload the rd graph in your readme file and write a short explanation.
