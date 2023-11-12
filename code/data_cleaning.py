@@ -15,7 +15,7 @@ dataframes = []
 for filename in os.listdir(directory):
     if filename.endswith('.csv.gz'):
         # Extract the date from the filename
-        date = filename.split('_')[1]
+        # date = filename.split('_')[1]
 
         # Create the file path
         file_path = os.path.join(directory, filename)

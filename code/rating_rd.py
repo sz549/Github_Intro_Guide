@@ -4,7 +4,7 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
 # Sample data loading for New York listings
-all_data = pd.read_csv('data/middle/ny_listing.csv')
+all_data = pd.read_csv('data/middle/boston_listing.csv')
 
 # Ensure 'price' is a float and remove any non-numeric characters like dollar signs
 all_data['price'] = all_data['price'].replace('[\$,]', '', regex=True).astype(float)
@@ -20,7 +20,7 @@ def triangular_kernel(x, bandwidth):
 
 # Filter data to keep only observations close to the thresholds
 thresholds = [4]
-bandwidth = 0.02  # adjust the bandwidth as needed
+bandwidth = 0.05  # adjust the bandwidth as needed
 
 # Run the regression for each threshold
 for threshold in thresholds:

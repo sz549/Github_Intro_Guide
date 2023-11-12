@@ -55,7 +55,7 @@ you will see 4 `listings.csv.gz` for Sept 16th, 2023, June 21st 2023, 19 March 2
 
 Below is the graph for reference. 
 
-![](output/rating_rd_4.png)
+![](output/figure/rating_rd_4.png)
 
 Please pull origin after you finished the graph. Please note that you could edit/revise the codes above.
 The code is just for reference. Please upload the rd graph in your readme file and write a short explanation.
