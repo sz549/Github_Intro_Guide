@@ -6,7 +6,7 @@ import ast
 import numpy as np
 
 # Path to the directory containing the files. Change the city to the city you choose.
-directory = 'data/raw/Boston'
+directory = 'data/raw/NewYork'
 
 # Initialize an empty list to store the dataframes
 dataframes = []
@@ -116,7 +116,7 @@ all_data = all_data.fillna(0)
 all_data = all_data.reset_index(drop=True)
 
 # Save the DataFrame to a CSV file without the index
-all_data.to_csv('data/middle/boston_listing.csv', index=False)
+all_data.to_csv('data/middle/newyork_listing.csv', index=False)
 
 
 # Print the number of listings per host

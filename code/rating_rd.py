@@ -4,7 +4,7 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
 # Sample data loading for New York listings
-all_data = pd.read_csv('data/middle/boston_listing.csv')
+all_data = pd.read_csv('data/middle/newyork_listing.csv')
 
 # Ensure 'price' is a float and remove any non-numeric characters like dollar signs
 all_data['price'] = all_data['price'].replace('[\$,]', '', regex=True).astype(float)
