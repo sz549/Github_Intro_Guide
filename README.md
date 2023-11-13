@@ -1,16 +1,30 @@
 # Github Intro Guide
+<<<<<<< HEAD
 This is the completed task of replication. 
+=======
+This is the complected task of replication. 
+>>>>>>> 9e4e2088c6127a48854fa2f16c8adce16c2aa06f
 ## Getting Started
 
 1.Ensure that [git lfs](https://git-lfs.github.com) and Python 3.10 are installed. I use MacOS system and Github online. So, it is recommended to use [Homebrew](https://brew.sh) to install git lfs. 
 
 2. Open a shell to the location where you wish to store the repo. You should avoid storing the repo in a synced directory (i.e., do not store it in a Dropbox, Box, or iCloud folder. Note that on many Macs, the Desktop and Documents folder is synced with iCloud.). Once you have navigated to the location where you wish to store the repo, clone the repository, and navigate to its root.
+<<<<<<< HEAD
 ```bash
 git lfs clone https://github.com/sz549/Github_Intro_Guide.git
 cd Github_Intro_Guide
 git lfs install
 ```
 3. I use Visual Studio Code to edit Python codes, so I choose to refer to public online resource like [Zhihu](https://zhuanlan.zhihu.com/p/624521466). It shows the details on how to link VSC to Github and how to push. 
+=======
+    ```bash
+    git lfs clone https://github.com/sz549/Github_Intro_Guide.git
+    cd Github_Intro_Guide
+    git lfs install
+    ```
+3. I use Visual Studio Code to edit Python codes, so I choose to refer to public online resourse like [Zhihu](https://zhuanlan.zhihu.com/p/624521466). It shows the details on how to link VSC to Github and how to push. 
+
+>>>>>>> 9e4e2088c6127a48854fa2f16c8adce16c2aa06f
 
 ## Rating RD Design Replication Exercise 
 
