@@ -10,7 +10,7 @@ This is the complected task of replication.
     cd Github_Intro_Guide
     git lfs install
     ```
-3. I use Visual Studio Code to edit Python codes, so I choose to refer to public online resourse like [Zhihu](https://zhuanlan.zhihu.com/p/624521466). It shows the details on how to link VSC to Github. 
+3. I use Visual Studio Code to edit Python codes, so I choose to refer to public online resourse like [Zhihu](https://zhuanlan.zhihu.com/p/624521466). It shows the details on how to link VSC to Github and how to push. 
 
 
 ## Rating RD Design Replication Exercise 
