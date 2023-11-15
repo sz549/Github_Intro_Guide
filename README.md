@@ -69,3 +69,5 @@ Below is the graph for reference.
 Please pull origin after you finished the graph. Please note that you could edit/revise the codes above.
 The code is just for reference. Please upload the rd graph in your readme file and write a short explanation.
 Make sure your code is readable with sufficient comments. Also, make the commit message as clear as possible.
+![](output/figure/rating_rdchi_4.png)
+this is my
