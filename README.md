@@ -69,5 +69,10 @@ Below is the graph for reference.
 Please pull origin after you finished the graph. Please note that you could edit/revise the codes above.
 The code is just for reference. Please upload the rd graph in your readme file and write a short explanation.
 Make sure your code is readable with sufficient comments. Also, make the commit message as clear as possible.
+
 ![](output/figure/rating_rdchi_4.png)
-this is my
+
+This is the rd graph based on the data of Chicago. According to the RD Estimate and standard Error, I can calculate the t statistic:
+t = -2.059390269141655 / 2.5297285470442756 ≈ -0.813
+Based on the calculation, for a t statistic of -0.813, in the case of degrees of freedom approaching infinity, the two-tailed p-value is approximately 0.416.
+This suggests that at a significance level of 0.05, we fail to reject the null hypothesis, indicating that the RD estimate is not statistically significant.
